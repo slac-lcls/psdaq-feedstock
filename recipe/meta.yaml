@@ -24,7 +24,7 @@ requirements:
     - {{ cdt('librdmacm-devel') }}
     - make
     - cmake
- host:
+  host:
     - xtcdata
     - psalg
     - python
@@ -36,7 +36,7 @@ requirements:
     - zeromq
     - p4p
     - zlib
-run:
+  run:
     - xtcdata
     - psalg
     - python
