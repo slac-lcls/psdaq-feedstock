@@ -1,0 +1,4 @@
+channel_sources:
+  - valmar,tidair-tag,conda-forge,defaults
+channel_targets:
+  - valmar main
