@@ -22,9 +22,14 @@ requirements:
     - {{ cdt('libnl') }}
     - {{ cdt('librdmacm') }}
     - {{ cdt('librdmacm-devel') }}
+    - {{ cdt('libudev') }}
+    - {{ cdt('libudev-devel') }}
     - make
     - cmake
   host:
+    - python
+    - setuptools
+    - pip
     - xtcdata
     - psalg
     - python
@@ -36,7 +41,10 @@ requirements:
     - zeromq
     - p4p
     - zlib
+    - libusdusb4
+    - libusb
   run:
+    - python
     - xtcdata
     - psalg
     - python
@@ -57,6 +65,7 @@ requirements:
     - lcls2_timetool
     - epics-base
     - zlib
+    - libusdusb4
 
 about:
   home: https://github.com/slac-lcls/lcls2
