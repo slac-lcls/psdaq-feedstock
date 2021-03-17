@@ -1,4 +1,4 @@
 channel_sources:
-  - valmar,tidair-packages,conda-forge,defaults
+  - lcls-ii,tidair-packages,conda-forge,defaults
 channel_targets:
-  - valmar main
+  - lcls-ii main
