@@ -6,8 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  source:
-  url: https://pswww.slac.stanford.edu/swdoc/tutorials/lcls2-{{ version }}.tar.gz
+  url: https://github.com/slac-lcls/lcls2/archive/refs/tags/{{ version }}.tar.gz
   sha256: 8dd119d5d60a8d2b73a1978a9cf2126b014a9df00fb216581a25362143bffe55
 
 build:
