@@ -34,7 +34,7 @@ requirements:
     - psalg
     - python
     - libfabric
-    - epics-base
+    - epics-base=7.0.4
     - prometheus-cpp
     - rapidjson
     - readline
@@ -58,12 +58,12 @@ requirements:
     - prometheus_client
     - amityping
     - mypy
-    - rogue
+    - rogue=v5.4.0
     - bluesky
     - ophyd
     - p4p
     - lcls2_timetool
-    - epics-base
+    - epics-base=7.0.4
     - zlib
     - libusdusb4
 

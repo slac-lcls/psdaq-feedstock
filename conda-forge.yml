@@ -14,9 +14,8 @@ provider:
   linux: travis
 channels:
   sources:
-    - tidair-tag
-    - tidair-packages
     - lcls-ii
+    - tidair-packages
     - conda-forge
     - defaults
   targets:
