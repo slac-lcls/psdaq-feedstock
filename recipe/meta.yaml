@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slac-lcls/lcls2/archive/refs/tags/{{ version }}.tar.gz
-  sha256: ca73652edc04867dd9b63d79c7c7641211d707a73498828c9c62b23f75491049 
+  sha256: a4e81c5cdce7891f4b11c5d72088cc3d38babed8e4702209a3bb1474528c3457 
 
 build:
   skip: True  # [win or osx]
