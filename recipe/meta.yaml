@@ -1,5 +1,5 @@
 {% set name = "psdaq" %}
-{% set version = "3.3.27" %}
+{% set version = "3.3.28" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slac-lcls/lcls2/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 6fced1068259ba208f08443c4a6b4daf92d748e7194f26b6bc8c890cc69351b2
+  sha256: 72ada8f79a2dd71f03861c3861a4973eceb9abb87018540506a0578853abce70
 
 build:
   skip: True  # [win or osx]
