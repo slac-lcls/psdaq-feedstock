@@ -41,7 +41,6 @@ requirements:
     - zeromq
     - p4p
     - zlib
-    - libusdusb4
     - libusb
   run:
     - python
@@ -65,7 +64,6 @@ requirements:
     - lcls2_timetool
     - epics-base
     - zlib
-    - libusdusb4
     - posix_ipc
 
 about:
