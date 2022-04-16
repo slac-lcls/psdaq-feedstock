@@ -22,8 +22,6 @@ requirements:
     - {{ cdt('libnl') }}
     - {{ cdt('librdmacm') }}
     - {{ cdt('librdmacm-devel') }}
-    - {{ cdt('libudev') }}
-    - {{ cdt('libudev-devel') }}
     - make
     - cmake
   host:
@@ -41,7 +39,6 @@ requirements:
     - zeromq
     - p4p
     - zlib
-    - libusb
   run:
     - python
     - xtcdata
