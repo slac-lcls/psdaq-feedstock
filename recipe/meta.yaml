@@ -1,5 +1,5 @@
 {% set name = "psdaq" %}
-{% set version = "3.3.30" %}
+{% set version = "3.3.35" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slac-lcls/lcls2/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 0b56923aa9628fce3f7c62cef2ed9df376a9efe0f09d3af48909c8810d8344ed
+  sha256: 8636a1a6737505e9fb71ced1286cec4807991304ad959b8a174aa2164f39ad54
 
 build:
   skip: True  # [win or osx]
@@ -50,11 +50,11 @@ requirements:
     - transitions
     - requests
     - zeromq
-    - prometheus-cpp
+    - prometheus-cpp=0.9.0
     - prometheus_client
     - amityping
     - mypy
-    - rogue
+    - rogue=v5.9.3
     - bluesky
     - ophyd
     - p4p
